@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oxygen:wght@700&display=swap');
+html { 
+    overflow-y: scroll; 
+}
+body { 
+    position: absolute; 
+}
+.btn-outline-success{
+    color:#FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.navbar{
+    margin-left:-5em;
+    margin-right: -5em;
+    margin-top:-5em;
+    width:142.3em;
+    height: 4em;
+    background-color: #278E7B;
+    padding:0;
+    opacity: 1;
+    position:fixed ;
+    z-index: 1;
+}
+.nav-link{
+    font-size:150%;
+    padding:0.63em;
+}
+.navbar-brand{
+    font-size:150%;
+    padding-left:2em;
+    padding-right:54em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    background-color: transparent;
+    color:#5CB7A8;
+}
+.navbar-light .navbar-brand {
+    color:#FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:#FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#FFFFFF;
+}
+.nav-link:hover {
+    background-color: #5CB7A8;
+}
+.navbar-light .navbar-brand:hover{
+    color: #FFFFFF;
+}
+
+body{
+    background-color: #EAE3D8;
+    margin:0;
+    padding: 5em;
+    padding-right:0;
+    height: 50em;
+}
+.background{
+    position:absolute;
+    width:2000%;
+    padding-top:9em;
+    margin-left:33em;
+    z-index: -1;
+}
+.line{
+    position:absolute;
+    padding-top:10em;
+    padding-left:2em;
+}
+.up{
+    display: inline;
+    position:absolute;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    font-size:250%;
+    /* width: 100%; */
+    padding-left: 2em;
+    top:3em
+}
+.down{
+    position:absolute;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    font-size:250%;
+    padding-top:4.3em;
+    margin-left:1em;
+}
+.text{
+    position:absolute;
+    height: 20%;
+    top: 14em;
+}
+.chart{
+    position:absolute;
+    left:48.5em;
+    top:110em;
+}
+.fglobe{
+    position:absolute;
+    top:25em;
+    left:-10em;
+}
+.bg{
+    width: 100%;
+}
